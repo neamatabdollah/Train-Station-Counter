@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+  body{
+    /* background-color: hsla(184, 66%, 80%, 0.76); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    background: url("background.png") no-repeat center fixed;
+    background-size: cover;
+    text-align: center;
+  } 
+  
+  h1, h2 {
+    font-size: 45px;
+    margin: 20px auto;
+    color: white;
+    text-shadow: -3px 0 black,
+                  0 3px black, 
+                  3px 0 black,
+                  0 -3px black;
+  }
+
+  button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #increament-btn {
+  background: darkred;
+  }
+
+  #save-btn {
+    background: rgb(24, 107, 42);
+  }
+  #save-el {
+    color: white;
+    font-size: xx-large;
+    text-shadow: -3px 0 black,
+                  0 3px black, 
+                  3px 0 black,
+                  0 -3px black;
+  }

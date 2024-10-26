@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- here, we put everything which will not appear on web page-->
+    <title>Counter</title>
+
+    <meta charset="UTF-8" />       <!--Define the character set used-->
+    <meta name="keywords" content="HTML, CSS, JavaScript" />     <!--Define keywords for search engines-->
+    <!--Setting the viewport to make your website look good on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- content information-->
+    <meta name="My Library" content="This is a train station Counter" />
+    <meta name="Auther" content="Neamat-Abdollah" />
+    <meta name="Nationality" content="Egyption" />
+
+    <link rel="stylesheet" href="styles.css" />                      <!-- to interact with css code -->
+  </head>
+  <body>
+    
+    <h1>People entered:</h1>
+    <h2 id="count-el">0</h2>
+    <div id="container">
+      <button id="increament-btn"  onclick="increament()">INCREAMENT</button><br>
+      <button id="save-btn" onclick="save()">SAVE</button>
+      <p id="save-el">Previous entires : </p>
+    </div>    
+    <script src="javascript.js"></script>     <!-- to interact with javascript code -->
+  </body>
+</html>
