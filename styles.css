@@ -4,20 +4,12 @@
   box-sizing: border-box;
 }
 
-/* Use a media query to add a break point at 800px: */
-/* @media screen and (max-width: 800px) {
-   body {
-    width: 100%; 
-    height: auto;
-   }
-} */
-
-  body{
+body{
     /* background-color: hsla(184, 66%, 80%, 0.76); */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 50px;
     background-image: url("background.png");
-    background-size: cover;
+    background-size: auto;
     background-repeat: none;
   } 
   
